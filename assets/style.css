@@ -1,0 +1,26 @@
+.bg {
+	background-color: #f8ede3;
+}
+
+h1 {
+	font-family: "Cedarville Cursive", cursive;
+	color: grey;
+	border-style: dashed;
+}
+
+nav {
+	color: grey;
+	border-style: dashed;
+	display: inline;
+}
+
+img {
+	color: grey;
+	border-style: dashed;
+	/* opacity: 50%; */
+}
+
+#selfie {
+	height: 350px;
+	width: auto;
+}
