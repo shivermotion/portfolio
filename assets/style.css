@@ -2,10 +2,17 @@
 	background-color: #f8ede3;
 }
 
+#abstractimg {
+	/* color: grey;
+	border-style: dashed; */
+	/* opacity: 50%; */
+	padding-left: 10px;
+}
+
 h1 {
 	font-family: "Cedarville Cursive", cursive;
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 	text-align: end;
 	padding-right: 50px;
 	opacity: 50%;
@@ -16,16 +23,16 @@ h1 {
 body > h2 {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	color: black;
-	border-style: dashed;
+	/* color: black;
+	border-style: dashed; */
 	text-align: end;
 	position: absolute;
 	padding-left: 900px;
 }
 
 nav {
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 	position: absolute;
 	padding-left: 1080px;
 	padding-top: 250px;
@@ -41,34 +48,31 @@ button {
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#abstractimg {
-	color: grey;
-	border-style: dashed;
-	/* opacity: 50%; */
-}
-
 main {
-	border-style: dashed;
+	/* border-style: dashed; */
+	padding-left: 10px;
+	flex-wrap: wrap;
 }
 
 /*footer and children*/
 footer {
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 }
 
 h3 {
-	text-align: center;
+	text-align: end;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	color: grey;
+	color: black;
+	padding-right: 300px;
 }
 
 #selfie {
 	height: 350px;
 	width: auto;
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 	padding-left: 800px;
 }
 
