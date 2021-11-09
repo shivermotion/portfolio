@@ -7,11 +7,13 @@ html {
 }
 
 #abstractimg {
-	color: grey;
-	border-style: dashed;
+	color: black;
+	border-style: double;
 	/* opacity: 50%; */
 	/* padding-left: 10px; */
 	position: static;
+	height: 550px;
+	width: auto;
 }
 
 body > h2 {
@@ -22,27 +24,24 @@ body > h2 {
 	text-align: center;
 	opacity: 50%;
 	position: relative;
-
-	/* padding-right: 50px; */
-	/* position: absolute; */
-	/* /* padding-left: 950px;  */
-	/* padding-top: 10px; */
 }
 
 body > h1 {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	color: black;
-	border-style: dashed;
+	/* border-style: dashed; */
 	text-align: center;
 	position: relative;
+	/* display: inline; */
 }
 
 nav {
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 	position: fixed;
 	margin-left: 90vw;
+	z-index: 99;
 }
 
 nav li {
@@ -57,37 +56,38 @@ button {
 }
 
 main {
-	border-style: dashed;
-	padding-left: 10px;
-	flex-wrap: wrap;
-	flex-direction: column;
+	/* border-style: dashed; */
+	padding: 5vw;
+	position: relative;
 }
 
 /*footer and children*/
 footer {
-	color: grey;
-	border-style: dashed;
+	/* color: grey;
+	border-style: dashed; */
 }
 
 h3 {
-	text-align: end;
+	text-align: center;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	color: black;
 	justify-content: flex-end;
 	position: relative;
-	border-style: dashed;
+	border-style: double;
 }
 
 #selfie {
 	height: 350px;
 	width: auto;
-	color: grey;
-	border-style: dashed;
+	color: black;
+	border-style: double;
 	/* padding-left: 800px; */
 	border-radius: 90px;
 	position: relative;
-	justify-content: center;
+	margin-left: 50vw;
+	margin-bottom: 10vw;
+	/* justify-content: center; */
 }
 
 p {
