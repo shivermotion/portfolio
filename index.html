@@ -14,19 +14,21 @@
 
 <body class="bg">
     <!--heading sig-->
-    <h1>jason day</h1>
-    <h2>JASON DAY</h2>
+    <h1>JASON DAY</h2>
+    <h2>jason day</h1>
+
     <!--nav section-->
     <nav>
-        <ul>
-        <li><button>home</button></li>
-        <li><button>projects</button></li>
-        <li><button>contact</button></li>
+        <ul> 
+        <li><a href="#main"><button onclick="mainDiv">back to top</button></a></li>
+        <li><a href="#main"><button onclick="mainDiv">projects</button></a></li>
+        <li><a href="#footer"><button onclick="contactDiv">contact</button></a></li>
     </ul>
     </nav>
     <img id= "abstractimg" src="./assets/shutterstock_1732619363.jpg" alt="image unavailable">
-    <!--projects section-->
-<main>
+
+    <!--main section-->
+<main id="main">
     <h2>projects</h2>
     <img id=placeholder src="./assets/400placeholder.png" alt="image unavailable">
     <img id=placeholder src="./assets/400placeholder.png" alt="image unavailable">
@@ -36,18 +38,20 @@
     <img id=placeholder src="./assets/400placeholder.png" alt="image unavailable">
     <img id=placeholder src="./assets/400placeholder.png" alt="image unavailable">
     <img id=placeholder src="./assets/400placeholder.png" alt="image unavailable">
-    
-   
 </main>
 
     <!--footer-->
-<footer>
+<footer id="footer">
     <h3>contact</h3>
     <img id="selfie" src="./assets/thumbnail_Snapchat-450802663.jpg" alt="image unavailable">
   <p>jason.day.blue@gmail.com</p>
   <p>214.490.2721</p>
-  <p>https://github.com/shivermotion</p>
+  <p><a href="https://github.com/shivermotion">https://github.com/shivermotion</a></p>
 </footer>
+
+<!--JS script-->
+<script src="./script.js"></script>
+
 
 </body>
 </html>

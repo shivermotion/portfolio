@@ -1,41 +1,47 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .bg {
 	background-color: #f8ede3;
 }
 
 #abstractimg {
-	/* color: grey;
-	border-style: dashed; */
+	color: grey;
+	border-style: dashed;
 	/* opacity: 50%; */
-	padding-left: 10px;
+	/* padding-left: 10px; */
+	position: static;
 }
 
-h1 {
-	font-family: "Cedarville Cursive", cursive;
-	/* color: grey;
-	border-style: dashed; */
-	text-align: end;
-	padding-right: 50px;
-	opacity: 50%;
-	position: absolute;
-	padding-left: 950px;
-	padding-top: 10px;
-}
 body > h2 {
+	font-family: "Cedarville Cursive", cursive;
+	font-size: xx-large;
+	color: grey;
+	border-style: dashed;
+	text-align: center;
+	opacity: 50%;
+	position: relative;
+	/* padding-right: 50px; */
+	/* position: absolute; */
+	/* padding-left: 950px;
+	padding-top: 10px; */
+}
+
+body > h1 {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	/* color: black;
-	border-style: dashed; */
-	text-align: end;
-	position: absolute;
-	padding-left: 900px;
+	color: black;
+	border-style: dashed;
+	text-align: center;
+	position: relative;
 }
 
 nav {
-	/* color: grey;
-	border-style: dashed; */
-	position: absolute;
-	padding-left: 1080px;
-	padding-top: 250px;
+	color: grey;
+	border-style: dashed;
+	position: fixed;
+	margin-left: 90vw;
 }
 
 nav li {
@@ -46,18 +52,20 @@ button {
 	background-color: #889a9d;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	border-radius: 90px;
 }
 
 main {
-	/* border-style: dashed; */
+	border-style: dashed;
 	padding-left: 10px;
 	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 /*footer and children*/
 footer {
-	/* color: grey;
-	border-style: dashed; */
+	color: grey;
+	border-style: dashed;
 }
 
 h3 {
@@ -65,15 +73,20 @@ h3 {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	color: black;
-	padding-right: 300px;
+	justify-content: flex-end;
+	position: relative;
+	border-style: dashed;
 }
 
 #selfie {
 	height: 350px;
 	width: auto;
-	/* color: grey;
-	border-style: dashed; */
-	padding-left: 800px;
+	color: grey;
+	border-style: dashed;
+	/* padding-left: 800px; */
+	border-radius: 90px;
+	position: relative;
+	justify-content: center;
 }
 
 p {
