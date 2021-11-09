@@ -16,6 +16,9 @@ html {
 	width: auto;
 }
 
+section > p {
+	text-align: end;
+}
 body > h2 {
 	font-family: "Cedarville Cursive", cursive;
 	font-size: xx-large;
@@ -86,7 +89,7 @@ h3 {
 	border-radius: 90px;
 	position: relative;
 	margin-left: 50vw;
-	margin-bottom: 10vw;
+	margin-bottom: 5vw;
 	/* justify-content: center; */
 }
 
