@@ -6,11 +6,10 @@ html {
 	background-color: #f8ede3;
 }
 
+/*body*/
 #abstractimg {
 	color: black;
 	border-style: double;
-	/* opacity: 50%; */
-	/* padding-left: 10px; */
 	position: static;
 	height: 550px;
 	width: auto;
@@ -33,15 +32,12 @@ body > h1 {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	color: black;
-	/* border-style: dashed; */
+
 	text-align: center;
 	position: relative;
-	/* display: inline; */
 }
-
+/* navigator */
 nav {
-	/* color: grey;
-	border-style: dashed; */
 	position: fixed;
 	margin-left: 90vw;
 	z-index: 99;
@@ -59,16 +55,15 @@ button {
 }
 
 main {
-	/* border-style: dashed; */
 	padding: 5vw;
 	position: relative;
 }
 
-/*footer and children*/
-footer {
-	/* color: grey;
-	border-style: dashed; */
+#placeholder:hover {
+	opacity: 50%;
 }
+
+/*footer and children*/
 
 h3 {
 	text-align: center;
@@ -85,12 +80,10 @@ h3 {
 	width: auto;
 	color: black;
 	border-style: double;
-	/* padding-left: 800px; */
 	border-radius: 90px;
 	position: relative;
 	margin-left: 50vw;
 	margin-bottom: 5vw;
-	/* justify-content: center; */
 }
 
 p {
